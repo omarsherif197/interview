@@ -1,0 +1,27 @@
+{
+  "id": "d5e041f1-3cfc-4490-a3b8-2b51e275837c",
+  "assistantId": "926102b3-6e53-4b37-9a61-9ad0bbb42658",
+  "phoneNumberId": "c81fef05-58be-4f3f-a794-63534c8c1124",
+  "type": "outboundPhoneCall",
+  "createdAt": "2025-09-09T01:22:21.735Z",
+  "updatedAt": "2025-09-09T01:22:22.068Z",
+  "orgId": "59e7aa26-42f5-4d76-a8f4-c91c16ad8806",
+  "cost": 0,
+  "customer": {
+    "name": "omar eltanta",
+    "number": "+19293214452"
+  },
+  "status": "queued",
+  "phoneCallProvider": "twilio",
+  "phoneCallProviderId": "CA2ad34aeb05e350840fa8a165b26a0490",
+  "phoneCallTransport": "pstn",
+  "monitor": {
+    "listenUrl": "wss://phone-call-websocket.aws-us-west-2-backend-production3.vapi.ai/d5e041f1-3cfc-4490-a3b8-2b51e275837c/listen",
+    "controlUrl": "https://phone-call-websocket.aws-us-west-2-backend-production3.vapi.ai/d5e041f1-3cfc-4490-a3b8-2b51e275837c/control"
+  },
+  "transport": {
+    "callSid": "CA2ad34aeb05e350840fa8a165b26a0490",
+    "provider": "twilio",
+    "accountSid": ""
+  }
+}

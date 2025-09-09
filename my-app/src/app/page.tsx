@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ExampleApiUsage } from "@/components/example-api-usage"
-
+import { CandidateForm } from "@/components/candidate_form"
+import {CallsTable} from "@/components/callsTable"
 export default function Home() {
   return (
     <main className="container mx-auto p-4">
@@ -17,10 +17,7 @@ export default function Home() {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground mb-4">
-                TODO: Implement call initiation form with phone number input
-              </p>
-              <Button>Start Call</Button>
+              <CandidateForm/>
             </CardContent>
           </Card>
 
@@ -32,9 +29,7 @@ export default function Home() {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground">
-                TODO: Implement call logs table
-              </p>
+              <CallsTable/>
             </CardContent>
           </Card>
 
